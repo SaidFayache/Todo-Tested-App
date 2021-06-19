@@ -4,7 +4,7 @@ const json = {
     todo: [],
 };
 
-test('adds todo', () => {
+test('AddTodo Test', () => {
     // resetTheDatabase
     const stringData = JSON.stringify(json);
     fs.writeFileSync('todo.json', stringData, 'utf8');
